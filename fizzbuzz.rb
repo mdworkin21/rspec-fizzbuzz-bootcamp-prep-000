@@ -1,10 +1,10 @@
 def fizzbuzz(num)
   if num / 3
-    return "fizz"
+    return "Fizz"
   elsif num / 5
-    return "buzz"
+    return "Buzz"
   elsif num / 5 && num / 3
-    return "fizzbuzz"
+    return "FizzBuzz"
   else
     return "nil"
 end
